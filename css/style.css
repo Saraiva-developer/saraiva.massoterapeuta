@@ -671,6 +671,14 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   margin-top: 4px;
 }
 
+.footer-map {
+  margin-top: 28px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: grayscale(0.4) contrast(1.05);
+}
+.footer-map iframe { display: block; }
+
 @media (max-width: 500px) {
   .footer-inner { flex-direction: column; }
   .footer-contact { text-align: left; }
