@@ -100,8 +100,8 @@ if (assessmentForm) {
 
   function updateStep() {
     steps.forEach((step, i) => step.classList.toggle('active', i === current));
-    backBtn.classList.toggle('visible', current > 0);
     const isLast = current === steps.length - 1;
+    backBtn.classList.toggle('visible', current > 0 && !isLast);
     nextBtn.style.display = isLast ? 'none' : 'inline-flex';
     submitBtn.classList.toggle('visible', isLast);
     progressFill.style.width = `${((current + 1) / steps.length) * 100}%`;
