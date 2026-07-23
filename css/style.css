@@ -605,7 +605,7 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
 
 /* CTA */
 .cta-section {
-  background-color: var(--bg);
+  background-color: var(--bg-alt);
   background-image: var(--grain);
   background-size: 220px 220px;
   background-repeat: repeat;
