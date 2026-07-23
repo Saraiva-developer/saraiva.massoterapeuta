@@ -715,9 +715,7 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
 /* Responsive */
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-content { order: 1; text-align: center; }
-  .hero-subtitle { margin-left: auto; margin-right: auto; }
-  .hero-actions { justify-content: center; }
+  .hero-content { order: 1; }
   .hero-visual { order: 2; max-width: 320px; margin: 0 auto; }
 }
 
