@@ -620,8 +620,31 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
 }
 .cta-section h2::after { left: 50%; transform: translateX(-50%); }
 .cta-section p { color: var(--text-muted); margin-bottom: 24px; font-size: 0.98rem; }
-.cta-hours { margin-top: 26px; font-size: 0.85rem; color: var(--text-muted); }
-.cta-note { margin-top: 6px; font-size: 0.82rem; color: var(--text-muted); }
+
+.contact-info-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+}
+.contact-info-item { text-align: center; }
+.contact-info-label {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.contact-info-value {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.5;
+}
 
 /* Footer */
 .site-footer {
