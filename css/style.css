@@ -511,14 +511,14 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
 
 .form-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 12px;
   margin-top: 8px;
   flex-wrap: wrap;
 }
 .form-nav #formBack { display: none; }
-.form-nav #formBack.visible { display: inline-flex; }
+.form-nav #formBack.visible { display: inline-flex; margin-right: auto; }
 .form-nav #formSubmit { display: none; }
 .form-nav #formSubmit.visible { display: inline-flex; }
 
