@@ -453,7 +453,7 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   margin-top: 28px;
 }
 .benefit {
-  text-align: center;
+  text-align: left;
   padding: 24px 18px;
   border: 1.5px solid var(--gold);
   border-radius: 10px;
@@ -469,7 +469,7 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   margin-top: 28px;
 }
 .process-step {
-  text-align: center;
+  text-align: left;
   padding: 24px 18px;
   border: 1.5px solid var(--gold);
   border-radius: 10px;
@@ -756,11 +756,5 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
     display: flex;
     flex-direction: column;
     gap: 16px;
-  }
-  .benefit {
-    text-align: left;
-    padding: 20px 18px;
-    border: 1.5px solid var(--gold);
-    border-radius: 10px;
   }
 }
