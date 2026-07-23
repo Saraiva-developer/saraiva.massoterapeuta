@@ -447,19 +447,19 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
 
 /* Benefits */
 .benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  margin: 28px auto 0;
+  border-top: 1px solid var(--line);
 }
 .benefit {
-  text-align: center;
-  padding: 24px 18px;
-  border: 1.5px solid var(--gold);
-  border-radius: 10px;
+  text-align: left;
+  padding: 20px 4px;
+  border-bottom: 1px solid var(--line);
 }
 .benefit h3 { font-size: 0.98rem; margin-bottom: 6px; }
-.benefit p { color: var(--text-muted); font-size: 0.85rem; }
+.benefit p { color: var(--text-muted); font-size: 0.88rem; }
 
 /* Process */
 .process-grid {
@@ -727,7 +727,6 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   .specialty { border-left: none; border-top: 1px solid var(--line); }
   .specialty:first-child { border-top: none; }
   .techniques-list { grid-template-columns: 1fr; column-gap: 0; }
-  .benefits-grid { grid-template-columns: repeat(2, 1fr); }
   .process-grid { grid-template-columns: repeat(2, 1fr); }
   .pricing-tiers { grid-template-columns: 1fr; }
 }
@@ -748,7 +747,6 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   }
   .main-nav.open { display: flex; }
   .nav-toggle { display: flex; }
-  .benefits-grid { grid-template-columns: 1fr 1fr; }
   .process-grid { grid-template-columns: 1fr; }
   .hero { padding: 64px 0; }
   .section { padding: 60px 0; }
