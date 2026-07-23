@@ -611,6 +611,7 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   background-repeat: repeat;
   padding: 70px 0;
   text-align: center;
+  border-top: 1px solid var(--line);
 }
 .cta-inner {
   max-width: 560px;
