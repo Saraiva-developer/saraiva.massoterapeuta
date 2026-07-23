@@ -518,6 +518,7 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   margin-top: 8px;
   flex-wrap: wrap;
 }
+.form-nav:not(:has(#formBack.visible)) { justify-content: center; }
 .form-nav #formBack { display: none; }
 .form-nav #formBack.visible { display: inline-flex; margin-right: auto; }
 .form-nav #formSubmit { display: none; }
