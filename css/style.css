@@ -755,13 +755,12 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
   .benefits-grid {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid var(--line);
+    gap: 16px;
   }
   .benefit {
     text-align: left;
-    padding: 20px 4px;
-    border: none;
-    border-bottom: 1px solid var(--line);
-    border-radius: 0;
+    padding: 20px 18px;
+    border: 1.5px solid var(--gold);
+    border-radius: 10px;
   }
 }
