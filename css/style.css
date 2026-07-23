@@ -621,11 +621,22 @@ h2.center::after { left: 50%; transform: translateX(-50%); }
 .cta-section h2::after { left: 50%; transform: translateX(-50%); }
 .cta-section p { color: var(--text-muted); margin-bottom: 24px; font-size: 0.98rem; }
 
+.quick-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 .contact-split {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  margin-top: 40px;
+  margin-top: 32px;
   padding-top: 32px;
   border-top: 1px solid var(--line);
   text-align: left;
